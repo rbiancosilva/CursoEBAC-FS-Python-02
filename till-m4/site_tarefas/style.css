@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    padding: 16px 45px;
+    background-color: rgb(65, 64, 62);
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid rgb(51, 49, 45);
+}
+
+header h1 {
+    font-family: 'Dancing Script', 'cursive';
+    font-size: 40px;
+}
+
+header button {
+    background-color: rgb(219, 109, 128);
+}
+
+button:hover {
+    filter: brightness(90%);
+}
+
+button {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+form {
+    padding: 22px 0;
+    text-align: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.459);
+    display: none;
+    font-weight: bold;
+}
+
+form input {
+    padding: 4px;
+    border-radius: 5px;
+    outline: none;
+}
+
+form button {
+    margin-left: 8px;
+}
+
+#add {
+    background-color: green;
+}
+
+#ccl {
+    background-color: red;
+}
+
+form h2 {
+    margin-bottom: 14px;
+}
+
+ul {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+
+li {
+    max-width: 100%;
+    list-style-type: none;
+    position: relative;    
+    overflow-y: hidden;
+    max-height: 220px;
+    font-size:120px;
+    background-color: rgb(102, 95, 95);
+    color: white;
+    font-size: 38px;
+    margin: 15px;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+h1 {
+    width: 100%;
+    
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.crossed {
+    text-decoration: line-through red;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
