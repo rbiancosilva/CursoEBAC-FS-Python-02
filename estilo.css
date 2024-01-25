@@ -19,7 +19,7 @@ header li a{
     font-weight:300;
 }
 .container{
-    max-width: 1334px;
+    max-width: auto;
     width: 100%;
 }
 header .container{
