@@ -1,2 +1,2 @@
-
+*{box-sizing:border-box;padding:0;margin:0}.container{display:flex;text-align:center;align-items:center;justify-content:center;width:100%;padding-top:120px}.container .row{width:80%;display:grid;grid-template-columns:repeat(3, 30%);column-gap:5%}.container .row #card1{background-color:green;height:90px}.container .row #card2{background-color:red;height:90px}.container .row #card3{background-color:blue;height:90px}
 /*# sourceMappingURL=maps/main.css.map */
